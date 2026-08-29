@@ -22,8 +22,7 @@
     "outDir": "${configDir}/node_modules/.cache/ts/out",
     "tsBuildInfoFile": "${configDir}/node_modules/.cache/ts/tsbuildinfo",
 
-    // A custom condition that can be set to the "exports" field in package.json
-    // and it should direct to the source .ts files.
+   
     "customConditions": ["dev-source"],
 
     // Allow JavaScript files in the project
